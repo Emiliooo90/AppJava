@@ -18,5 +18,5 @@ public interface IPaciente {
     List<Paciente> findByAll();
     Paciente findByRut(String rut);
     String toJson(Paciente paciente);
-    List<String> toJson(List<Paciente> paciente);
+    String toJson(List<Paciente> paciente);
 }
